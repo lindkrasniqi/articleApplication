@@ -30,7 +30,7 @@ public class LoadData implements CommandLineRunner {
         rolesRepository.save(r1);
 
         User u1 = new User();
-        u1.setUsername("lindi");
+        u1.setUsername("lind");
         u1.setEmail("lk@gmail.com");
         u1.setPassword(passwordEncoder.encode("1234"));
         u1.getRoles().add(r1);
